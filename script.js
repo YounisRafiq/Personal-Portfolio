@@ -32,7 +32,7 @@ const darkMode = () => {
        let head = document.querySelector(".proffesion h3");
        head.style.color = "white";
        document.querySelector(".proffesion i").style.color = "white";
-       document.querySelectorAll(".services-container .services-box").style.backgroundColor = "transparent";
+       document.querySelectorAll(".services-container .services-box h3").style.color = "transparent";
     }
     else{
         mode = "light"
