@@ -30,8 +30,6 @@ const darkMode = () => {
         let prof = document.querySelector(".proffesion");
         if(mode === "dark"){
             prof.style.backgroundColor = "black";
-        } else{
-            prof.style.backgroundColor = "white";
         }
        let head = document.querySelector(".proffesion h3");
        head.style.color = "white";
