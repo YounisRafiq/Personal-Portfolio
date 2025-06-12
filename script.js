@@ -35,7 +35,7 @@ const darkMode = () => {
        
     }
     else{
-        mode === "light"
+        mode = "light"
         document.querySelector("body").classList.remove("darkMode");
     }
 }
