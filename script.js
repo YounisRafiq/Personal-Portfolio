@@ -31,5 +31,6 @@ const darkMode = () => {
     else{
         mode = "light"
         document.querySelector("body").classList.remove("darkMode");
+        document.querySelector(".proffesion").style.backgoundColor = "black";
     }
 }
