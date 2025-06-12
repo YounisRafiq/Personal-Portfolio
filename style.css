@@ -448,3 +448,7 @@ span{
 .fa-moon{
   cursor: pointer;
 }
+.change{
+  background-color: black;
+  color: white;
+}
