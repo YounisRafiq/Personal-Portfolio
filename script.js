@@ -24,7 +24,7 @@ header.classList.toggle('sticky', window.scrollY > 100);
 
 let mode = "light";
 const darkMode = () => {
-    if(mode === "light"){
+    if(mode ="light"){
         mode = "dark"
         document.querySelector("body").classList.add("darkMode")
         let prof = document.querySelector(".proffesion");
