@@ -28,17 +28,15 @@ const darkMode = () => {
         mode = "dark"
         document.querySelector("body").classList.add("darkMode")
         let prof = document.querySelector(".proffesion");
-        if(mode === "dark"){
-            prof.style.backgroundColor = "black";
-        }
+       prof.style.backgroundColor = "black"
        let head = document.querySelector(".proffesion h3");
        head.style.color = "white";
        document.querySelector(".proffesion i").style.color = "white";
        
     }
     else{
-        mode === "light"
-        prof.style.backgroundColor = "white";
+        prof.style.disabled = true;
+        mode = "light"
         document.querySelector("body").classList.remove("darkMode");
     }
 }
