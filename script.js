@@ -31,6 +31,8 @@ const darkMode = () => {
        prof.style.backgroundColor = "black"
        let head = document.querySelector(".proffesion h3");
        head.style.color = "white";
+       let box = document.querySelector(".services-box h3");
+       box.style.color = "black"
     }
     else{
         mode = "light"
