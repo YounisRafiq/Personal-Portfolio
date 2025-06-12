@@ -35,6 +35,7 @@ const darkMode = () => {
        
     }
     else{
+        prof.style.backgroundColor = "White";
         mode = "light"
         document.querySelector("body").classList.remove("darkMode");
     }
