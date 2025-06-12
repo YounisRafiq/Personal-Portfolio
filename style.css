@@ -175,7 +175,7 @@ section {
   color: var(--main-color);
   transform: rotate(calc(360deg / 4 * var(--i)));
   transform-origin: 300px;
-  background: var(--bg-color);
+  /* background: var(--bg-color); */
   padding: 13px 0;
 }
 .proffesion i{
