@@ -33,7 +33,7 @@ const darkMode = () => {
        head.style.color = "white";
        document.querySelector(".proffesion i").style.color = "white";
        let services = document.querySelectorAll(".services-box");
-       services.classList.add("changes");
+       services.classList.add("change");
     }
     else{
         mode = "light"
