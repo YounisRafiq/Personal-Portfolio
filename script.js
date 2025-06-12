@@ -27,11 +27,11 @@ const darkMode = () => {
     if(mode === "light"){
         mode = "dark"
         document.querySelector("body").classList.add("darkMode")
+        let prof = document.querySelector(".proffesion");
+       prof.style.backgroundColor = "black"
     }
     else{
         mode = "light"
         document.querySelector("body").classList.remove("darkMode");
-       let prof = document.querySelector(".proffesion");
-       prof.style.backgroundColor = "black"
     }
 }
